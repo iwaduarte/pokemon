@@ -711,4 +711,4 @@ attempted value: ${a}
   background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
   width: 100%;
   height: 100vh;
-`,b_="/pokemon/assets/pokemonLogo-90d08345.png",x_=()=>{const e=Xy();return Ie(A_,{children:[F("img",{src:b_,alt:"Pokémon"}),F(to,{text:"Start",onClick:()=>e("/map")})]})},C_=pC([{path:"/pokemon/",element:F(x_,{})},{path:"/pokemon/map/",element:F(S_,{})},{path:"*",element:F(uC,{to:"/pokemon/"})}]),O_=()=>F(sC,{router:C_});function k_(){return Ie(Is,{children:[F(Gb,{}),F(O_,{})]})}Dc.createRoot(document.getElementById("root")).render(F(Xn.StrictMode,{children:F(k_,{})}))});export default T_();
+`,b_="/pokemon/assets/pokemonLogo-90d08345.png",x_=()=>{const e=Xy();return Ie(A_,{children:[F("img",{src:b_,alt:"Pokémon"}),F(to,{text:"Start",onClick:()=>e("/pokemon/map")})]})},C_=pC([{path:"/pokemon/",element:F(x_,{})},{path:"/pokemon/map/",element:F(S_,{})},{path:"*",element:F(uC,{to:"/pokemon/"})}]),O_=()=>F(sC,{router:C_});function k_(){return Ie(Is,{children:[F(Gb,{}),F(O_,{})]})}Dc.createRoot(document.getElementById("root")).render(F(Xn.StrictMode,{children:F(k_,{})}))});export default T_();
