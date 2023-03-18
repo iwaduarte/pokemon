@@ -10,16 +10,16 @@ import Home from "./pages/Home/index.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/pokemon/",
     element: <Home />,
   },
   {
-    path: "/map/",
+    path: "/pokemon/map/",
     element: <MapPage />,
   },
   {
     path: "*",
-    element: <Navigate to="/" />,
+    element: <Navigate to="/pokemon/" />,
   },
 ]);
 

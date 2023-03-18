@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <S.HomeWrapper>
       <img src={logo} alt="Pokémon" />
-      <Button text="Start" onClick={() => navigate("/map")} />
+      <Button text="Start" onClick={() => navigate("/pokemon/map")} />
     </S.HomeWrapper>
   );
 };
