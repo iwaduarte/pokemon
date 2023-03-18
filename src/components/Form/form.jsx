@@ -180,8 +180,8 @@ const Form = ({
                   name="types"
                   onChange={(value) => {
                     const [first, second] = value;
-                    first && setFieldValue("types[0].type.name", first);
-                    second && setFieldValue("types[1].type.name", second);
+                     setFieldValue("types[0].type.name", first);
+                     setFieldValue("types[1].type.name", second);
                   }}
                   onBlur={handleBlur}
                 />
