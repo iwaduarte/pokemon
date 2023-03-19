@@ -107,12 +107,16 @@ const ActionWrapper = sC.div`
   height: 0;
   text-align: center;
   position: sticky;
-  top: 406px;
+
   margin-bottom: 8px;
   z-index: 1000;
 
   & img {
     filter: drop-shadow(0px 0px 1px rgba(9, 30, 66, 0.31)) drop-shadow(0px 20px 32px rgba(9, 30, 66, 0.25));
+  }
+
+  @media (max-width: 820px) {
+    top: 412px;
   }
 
 `;

@@ -23,9 +23,6 @@ const Wrapper = sC.div`
   left: 0;
   top: 0;
   }
-
-
-  
 `;
 
 const Photo = sC.div`
@@ -38,8 +35,8 @@ const Photo = sC.div`
   position: absolute;
   border: 4px solid #00D68F;
   border-radius: 1000px;
-  width: 69%;
-  height: 44%;
+  height: 247px;
+  width: 247px;
   margin-top: 32px;
   background: #F7F9FC;
   
@@ -49,10 +46,6 @@ const Photo = sC.div`
     max-width: 140px;
   }
 
-  @media (max-width: 820px) {
-    border-radius: 50%;
-    height: 38%;
-  }
 `;
 
 const Camera = sC.div`
@@ -78,6 +71,7 @@ const Main = sC.div`
   margin-top: 88px;
   padding-bottom: 40px;
   border-radius: 24px 24px 0 0;
+
 `;
 
 export { Wrapper, Photo, Camera, Main, Header };
