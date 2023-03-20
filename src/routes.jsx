@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  createBrowserRouter,
+   createHashRouter,
   Navigate,
   RouterProvider,
 } from "react-router-dom";
@@ -8,7 +8,7 @@ import {
 import MapPage from "../src/pages/Map/index.jsx";
 import Home from "./pages/Home/index.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/pokemon/",
     element: <Home />,
