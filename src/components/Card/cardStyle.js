@@ -107,7 +107,7 @@ const ActionWrapper = sC.div`
   height: 0;
   text-align: center;
   position: sticky;
-
+  top: 406px;
   margin-bottom: 8px;
   z-index: 1000;
 
